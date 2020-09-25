@@ -4,7 +4,7 @@
   "description": "Arquitectura de la informacion",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp --task"
   },
   "author": "Elkin Martinez",
   "license": "ISC",
