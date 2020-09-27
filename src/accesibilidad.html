@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <base href="/"> -->
+    <title>Accesibilidad en la web</title>
+    <link rel="stylesheet" type="text/css" href="/css/custom-bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg  navbar-light sticky-top shadow rounded" style="background-color: #e3f2fd;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-nav collapse collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand py-2" href="/" aria-label="Product">
+            <img src="assets/cooperation-1237280.svg" width="30" height="30" class="d-inline-block align-top" alt="logotipo" loading="lazy" />
+            Arquitectura de la información
+          </a>
+          <a class="nav-link py-2 d-none d-md-inline-block" href="/">Incio</a>
+          <a class="nav-link py-2 d-none d-md-inline-block" href="/usabilidad.html">Usabilidad</a>
+          <a class="nav-link py-2 d-none d-md-inline-block" href="accesibilidad.html">Accesibilidad</a>
+          <a class="nav-link py-2 d-none d-md-inline-block" href="/modelos.html">Modelos</a>
+        </div>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </nav>
+
+    <section class="container p-3 mt-5">
+        <div class="row">
+            <div class="col-3">
+              <div class="list-group list-group-flush" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-interfaces-list" data-toggle="list" href="#list-interfaces" role="tab" aria-controls="interfaces">Accesibilidad de interfaces</a>
+                <a class="list-group-item list-group-item-action" id="list-general-list" data-toggle="list" href="#list-general" role="tab" aria-controls="general">Una necesidad general</a>
+                <a class="list-group-item list-group-item-action" id="list-accesibilidad-usabilidad-list" data-toggle="list" href="#list-accesibilidad-usabilidad" role="tab" aria-controls="accesibilidad-usabilidad">Accesibilidad y Usabilidad</a>
+                <a class="list-group-item list-group-item-action" id="list-internet-list" data-toggle="list" href="#list-internet" role="tab" aria-controls="internet">Accesibilidad en Internet</a>
+              </div>
+            </div>
+            <div class="col-9">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-interfaces" role="tabpanel" aria-labelledby="list-interfaces-list">
+                    <blockquote class="blockquote text-right py-3">
+                        <p class="mb-0">“El poder de la web está en su universalidad. Un aspecto esencial es el acceso para todo el mundo sin importar la discapacidad.”</p>
+                        <footer class="blockquote-footer">Tim Berners-Lee <cite title="Source Title">director del World Wide Web Consortium (W3C): http://www.w3c.org W3C.</cite></footer>
+                    </blockquote>
+                    <p>
+                        Las barreras de inclusión de personas con alguna discapacidad fisica o cognitiva esta directamente relacionada con la interfaz de usuario por lo exite la necesidad de 
+                        interfaces adaptables.
+                    </p>
+
+                    <dl class="row">
+
+                        <dt class="col-sm-3">Accesibilidad de las interfaces</dt>
+                        <dd class="col-sm-9">
+                            <p>
+                                Accesibilidad física: los perifericos de uso comun requieren ciertas habilidades físicas, pero una persona con baja visión puede usar un dispositivo para ampliar la pantalla
+                                por lo que los textos representados como imagenes sera incomprensibles. Un lecto de <a href="">braile</a> procesa una tabla como una tabla pero si utilizamos tablas para el diseño
+                                sitio el usaurio no podra acceder al contenido. Un lector de <a href="">braile</a> procesas las etiquetas alt pero sin no inlcuimos información el usuario no sabe que hay en la panatalla.
+                            </p>
+                        </dd>
+                      
+                        <dt class="col-sm-3">Accesibilidad cognitiva</dt>
+                        <dd class="col-sm-9">
+                          <p>
+                              Para conseguir un uso adecuado, la perso- na debe comprender los procedimientos, las metáforas, la navegación, etc., lo que en definitiva depende del ajuste entre 
+                              la “visión del mundo” que tiene el usuario y la que tiene la aplicación.
+                          </p>
+                        </dd>
+                        
+                        <dt class="col-sm-3">Diseño universal</dt>
+                        <dd class="col-sm-9">
+                            <p>
+                                El diseño universal, conocido también como diseño para todos, tiene como objetivo diseñar interfa- ces que no presenten barreras de accesibilidad. 
+                                Para esto, es necesario que la in- terfaz admita el uso de dispositivos de interacción alternativos, adecuados a las capacidades físicas de cada usuario.
+                            </p>
+                            <p>
+                                Los ejemplos incluyen a personas con módems lentos que desactivan las imágenes, personas que navegan por la web mientras conducen un automóvil e incluso médicos que 
+                                acceden a la web mientras sus manos están ocupadas con una cirugía.
+                            </p>
+                            <p>
+                                con la finalidad de que todo el mundo –incluyendo generaciones futuras e independientemente de la edad, el género, las capacidades o la cultura– pueda participar en
+                                la construcción de nuestra sociedad, con igualdad de oportunida- des para participar en actividades económicas, sociales, culturales, de ocio y re- creativas y que 
+                                pueda acceder, utilizar y entender cualquier parte del entorno lo más independientemente posible.
+                            </p>
+                        </dd>
+
+                    </dl>
+                    <blockquote>
+                        <footer class="blockquote-footer p-2">
+                            Saltiveri <cite title="Source Title"> en Diseño de sistemas interactivos centrados en el usuario</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="tab-pane fade" id="list-general" role="tabpanel" aria-labelledby="list-general-list">
+                    <p>
+                        Si un sistema tambien es accesible tmabien beneficiar a: 
+                        <ul>
+                            <li>Persona de edad avanzada.</li>
+                            <li>Personas con dispositivos lentos o antiguos.</li>
+                            <li>Personas con dispositivos muy modenos</li>
+                            <li>Personas con discapacidades temporales</li>
+                            <li>Personas con discapacidad</li>
+                        </ul>
+                    </p>
+                    <figure class="figure d-block align-items-center p-5">
+                        <img src="assets/download.png" class=" figure-img d-inline-block img-fluid w-100 rounded mx-auto img-fluid" 
+                            alt="Tipos de discapacidad y los colectivos regularmente o temporalemente afectados" />
+                        <figcaption class="figure-caption text-center">Tipos de discapacidad y los colectivos regularmente o temporalemente afectados. Fuente Saltiveri</figcaption>
+                      </figure>
+                </div>
+                <div class="tab-pane fade" id="list-accesibilidad-usabilidad" role="tabpanel" aria-labelledby="list-accesibilidad-usabilidad-list">
+                    <p>
+                        Los conceptos de Accesibilidad  y Usabilidad disponen de significado y características muy diferenciados
+                    </p>
+                    <dl class="row">
+                        <dt class="col-sm-3">Ni usable ni accessible</dt>
+                        <dd class="col-sm-9">
+                            <p>
+                                Desafortunadamente éste es el caso más habitual en todas las aplicaciones interactivas. Este caso recoge aquellas aplicaciones cuyo diseño
+                                no ha tenido en cuenta para nada los parámetros de accesibilidad para per- sonas con discapacidades, y podríamos decir que sólo son accesibles
+                                para las personas “normales”.11 Además, carecen de la usabilidad necesaria para uti- lizarlas satisfactoriamente.
+                            </p>
+                        </dd>
+                      
+                        <dt class="col-sm-3">Usable y no accesible.</dt>
+                        <dd class="col-sm-9">
+                          <p>
+                             En este caso, será sólo usable para quienes puedan acce- der a sus funcionalidades o, mejor dicho, será usable para la población
+                             para la cual ha sido implementada la aplicación. Este caso es aquél en el que para el desarrollo de la aplicación se han tenido 
+                             en cuenta y aplicado las técnicas de la usabilidad.
+                          </p>
+                        </dd>
+                      
+                        <dt class="col-sm-3"> Accesible sin ser usable.</dt>
+                        <dd class="col-sm-9">
+                            <p>
+                                Accesible sin ser usable. Se puede comparar con el primero, en el que una parte de la población podía acceder a las funcionalidades
+                                y se encontraría con problemas de usabilidad. Aquí lo que cambia es que el abanico de población que notará esta falta de usabilidad
+                                será mayor, puesto que al ser accesible, el número de personas que podrá acceder a sus servicios y/o funcionalidades es mayor.
+                            </p>
+                        </dd>
+                      
+                        <dt class="col-sm-3 text-truncate">Usable y accesible.</dt>
+                        <dd class="col-sm-9">
+                            <p>
+                                Indudablemente, éste es el caso ideal y, evidentemente, el más escaso. Representa la idea básica del diseño universal, donde además 
+                                de favorecer el acceso a todo el mundo, lo hace de manera usable.
+                            </p>
+                        </dd>
+                      
+                      </dl>
+                      <blockquote>
+                        <footer class="blockquote-footer p-2">
+                            Saltiveri <cite title="Source Title"> en Diseño de sistemas interactivos centrados en el usuario</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="tab-pane fade" id="list-internet" role="tabpanel" aria-labelledby="list-internet-list">
+                    <p>
+                        El World Wide Web Consortium, o simplemente W3C (Consorcio para la World Wide Web), se creó en octubre de 1994 para conducir a la World Wide Web
+                        a su máximo potencial mediante el desarrollo de protocolos de uso común que promocionasen su evolución y asegurasen la interoperabilidad. 
+                        Constituyen un consorcio industrial internacional, alojado en el Laboratorio de Ciencias de la Computación del Instituto de Tecnología de Massachusetts
+                        , en Estados Unidos; en el Instituto Nacional de Investigación en Informática y Robótica (Institut National de Recherche a Informatique et a Automatique, INRIA) 
+                        en Europa (Francia); y en la Universidad Shonan Fujisawa de Keio (Keio University Shonan Fujisawa Campus), en Japón. 
+                    </p>
+                    <p>
+                        El consorcio está liderado por Tim Berners-Lee, director y creador de la World Wide Web, y presidido por Jean-François Abramatic. El W3C está formado por or
+                        ganizaciones miembro, sin ánimo de lucro, que trabajan en la comunidad internacional para desarrollar especificaciones y programas informáticos de referencia,
+                        que son distribuidos gratuitamente a lo largo de todo el planeta. El compromiso del W3C de encaminar la web a su máximo potencial incluye el hecho de proporcionar
+                         un alto grado de accesibilidad para las personas con disca- pacidades. El grupo interno de trabajo permanente conocido como Iniciativa para la Accesibilidad de la
+                          Web (Web Accesibility Initiative, WAI), en coordinación con asociaciones y organizaciones de todo el mundo, persigue la accesibilidad de la web mediante cinco actividades 
+                          complementarias: tecnología, normativa, herramientas (de validación y reparación), educación y formación e investigación y desarrollo. Las normativas de la WAI
+                           están totalmente enfocadas a las aplicaciones web. Sin embargo, debemos esforzarnos en conseguir la accesibilidad sea cual sea la aplica- ción interactiva que desarrollemos.
+                    </p>
+                    <blockquote>
+                        <footer class="blockquote-footer p-2">
+                            Saltiveri <cite title="Source Title"> en Diseño de sistemas interactivos centrados en el usuario</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md text-center">
+                <img src="assets/cooperation-1237280.svg" width="30" height="30" class="d-inline-block align-top"
+                    alt="" />
+                <small class="d-block mb-3 text-muted">© Elkin Martinez</small>
+            </div>
+    </footer>
+    <script type="text/javascript" src="/vendors/jquery.min.js"></script>
+    <script type="text/javascript" src="/vendors/popper.min.js"></script>
+    <script type="text/javascript" src="/vendors/bootstrap.min.js"></script>
+</body>
+
+</html>
